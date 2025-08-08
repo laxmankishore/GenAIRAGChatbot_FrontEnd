@@ -19,9 +19,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: GenAIRAGChatbot_FrontEnd/genairagchatbot-frontend
 
       - name: Build the React app
         run: npm run build
+        working-directory: GenAIRAGChatbot_FrontEnd/genairagchatbot-frontend
 
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@master
