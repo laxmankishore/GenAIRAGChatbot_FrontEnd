@@ -4,7 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 // This means any request starting with /api will be forwarded to your backend — CORS-free.
 export default defineConfig({
-  base: "genairagchatbot-frontend",
   plugins: [react()],
   server: {
     proxy: {
