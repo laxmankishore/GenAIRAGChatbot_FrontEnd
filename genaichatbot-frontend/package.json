@@ -2,6 +2,7 @@
   "name": "genaichatbot-frontend",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://laxmankishore.github.io/GenAIRAGChatbot_FrontEnd",
   "type": "module",
   "scripts": {
     "dev": "vite",
