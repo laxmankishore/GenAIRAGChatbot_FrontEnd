@@ -7,7 +7,8 @@ function App() {
 
  const handleSubmit = async () => {
    try {
-     const response = await fetch(`/api/sum?a=${a}&b=${b}`);
+//      const response = await fetch(`/api/sum?a=${a}&b=${b}`);
+     const response = await fetch(`http://3.148.113.146:8080/sum?a=${a}&b=${b}`)
      const data = await response.json(); // changed from .text()
      console.log('Response JSON:', data);
      setResult(data.sum); // use the key from JSON response
